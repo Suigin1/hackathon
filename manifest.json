@@ -7,7 +7,10 @@
     {
       "matches": ["<all_urls>"],
       "js": ["./main.js"],
-      "css": ["./styles.css"]
+      "css": ["./styles.css"],
+      "icons": { "16": "logo16.png",
+           "48": "logo48.png",
+          "128": "logo128.png" }
     }
   ]
 }

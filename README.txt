@@ -6,11 +6,3 @@ TODO:
 1. bold first 3 chars of each word
 2. unbold after first 3 if already bolded
 3. skip headers
-
-
-"content_scripts": [
-  {
-    "matches": ["https://www.youtube.com/*"],
-    "js": ["./main.js"]
-  }
-]
