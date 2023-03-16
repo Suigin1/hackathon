@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "The Derek Zoolander Extension for Kids Who Want to Read Good and Who Wanna Learn to Focus Good Too",
+  "version": "1.0",
+  "description": "Bionic reading: Bolds the first part of most words so you can stay focused!",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./main.js"],
+      "css": ["./styles.css"]
+    }
+  ]
+}
